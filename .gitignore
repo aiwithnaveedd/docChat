@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+.env
+chroma_db/
+venv/
+app.log
+.DS_Store
+
+cat << 'EOF' > .gitignore
+venv/
+
+
+*.pyo
+*.pyd
+.cache/
+
+cache/
+*.log
+
+EOF
